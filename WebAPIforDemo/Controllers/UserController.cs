@@ -20,7 +20,7 @@ namespace FirstWebAPI.Controllers
         new User { id = 5, name = "Jasprit Bumrah", email = "email5@mail.com", phone = "01111111", role = 3},
         new User { id = 6, name = "AB De Villiers", email = "email6@mail.com", phone = "01111111", role = 3},
         new User { id = 7, name = "Chris Gayle", email = "email7@mail.com", phone = "01111111", role = 3},
-        new User { id = 7, name = "Brian Lara", email = "email8@mail.com", phone = "01111111", role = 3}
+        new User { id = 8, name = "Brian Lara", email = "email8@mail.com", phone = "01111111", role = 3}
    };
         // GET: api/Users
         [ResponseType(typeof(IEnumerable<User>))]
